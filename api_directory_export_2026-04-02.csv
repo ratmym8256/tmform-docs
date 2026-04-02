@@ -1,0 +1,1105 @@
+Title,Description,Document Number,Domains,Types,Version,Date,Status
+"Sales Management API","<p><span style=""color: rgb(51,51,51);"">The Sales Management API provides interfaces for Sales Lead, Sales Opportunity, Sales Quote and the other management capabilities to support the sales activities to build relationship with the prospect customer who could be a person or organization that has an interest in the goods and/or services and possibly become the actual customers with one or more subscriptions.</span></p>","TMF699","Marketing Sales","RESTful","v4.0","2021-07-01","Production"
+"Service Catalog Management API","<p>The Service Catalog Management API allows the management of the entire lifecycle of the service catalog elements.</p>
+<br><b>Version history</b>
+<br> v4.0.0 
+<p>07-Nov-2024 TMF633 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF633","Service","RESTful","v4.0","2021-07-07","Production"
+"Geographic Location Management API","<p>Provides the information of a geographic region of the entity (customer, equipment, address).</p>","TMF675","Common","RESTful","v1.0.0","2017-08-01","Archived"
+"Cost Management API","<p>The Cost Management API provides a standardized mechanism to manage projected and actual costs across telecom services and resources. It enables creating, updating, deleting, and retrieving cost instances, each containing one or more cost items. The API supports three cost cycles: one-time costs, recurring fixed costs, and consumption-based costs. It is designed to interact seamlessly with various ODA function blocks for effective cost tracking and optimization. </p>
+<br><b>Version history</b>
+<p>v5.0.0
+<p> 18 July 2025 TMF764 preview release v5.0.0: Open API Specification (OAS), User Guide, Conformance Profile
+</p>","TMF764","Common","RESTful","v5.0","","Pre-production"
+"Service Usage Management API","<p>The Service Usage Management API provides a standardized mechanism for service usage management such as the creation, update, retrieval, import and export of a collection of service usages.</p>
+<p> 14-Oct-2024 TMF727 v5.0.0 preview release: Open API Specification, User Guide and Conformance profile updates for consistency between Usage APIs: Product Usage, Service Usage and Resource Usage. ","TMF727","Service","RESTful","v4.0","2022-09-06","Pre-production"
+"DCS 5GSlice Service Activation API","<p title="""">Domain Context Specialization of TMF640 for 5G Service Slice, Swagger of Contract is strongly bound to the GSMA Service Definition</p>","TMF924","Service","RESTful","v4.0","2022-09-16","Pre-production"
+"Service Quality Management Management API","<p>Through this API, any Enterprise is able to access a Service Quality Management application and extract Service Level Specifications and associated Service Level Objectives (SLO) and their thresholds.</p>
+<br><b>Version history</b></br>
+<br>v4.0.0 </br>
+<p>23 Jan 2025 TMF657 v4.0.0 CTK update .json and .html are now available when you run CTK 
+../htmlResults.html  
+../jsonResults.json </p>
+<p>07 No  2024 TMF657 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.</p>
+<p>22 Sep 2021</p> Stable release: OAS, User Guide, Conformance profile, CTK, RI and postman released.","TMF657","Service","RESTful","v4.0","2021-09-22","Production"
+"Geographic Address Management API","<p>Provides a standardized client interface to an Address management system. It allows looking for worldwide addresses. It can also be used to validate geographic address data, to be sure that it corresponds to a real geographic address. Finally, it can be used to look for a geographic address by: searching an area as a start (city, town ...), then zooming on the streets of this area, and finally listing all the street segments (numbers) in a street.</p>
+<p>Version history</p>
+
+<p>12 Mar 2026 TMF673 v4.0.0 release: This update includes fixes and minor improvements to the CTK and Reference Implementation.
+The update corrects the use of a string for a datetime filter parameter, which has now been aligned to the proper ISO 8601 date-time format. README files have also been improved with clearer guidance, including suggested proxy configuration for Docker images to support testing vendor implementations across different networks.
+The Docker image tag has been incremented from v1.0.0 to v1.0.1 to reflect this patch update.</p>
+","TMF673","Common","RESTful","v4.0","2026-03-12","Production"
+"Federated ID Management API","<p>The management of principals of any kind (persons, objects, …) and their access to resources in an open environment which can span across different enterprise boundaries. It relies on authentication, authorization and consent mechanisms to protect privacy with a simple and easy user experience. Different parties can provide identity services (operators, social networks, GSMA, …).</p>","TMF691","Common","RESTful","v4.0","2021-11-22","Pre-production"
+"Work Qualification Management","No description available yet","TMF714","Common","RESTful","v4.0","2021-08-13","Pre-production"
+"Resource Activation Management API","The Resource Activation and Configuration API can be used to query resource instances to acquire the resource activation states and attributes, and it can be used to create/update, configure and activate the resource instances.","TMF702","Resource","RESTful","v4.0","2020-07-13","Production"
+"Incident Management API","The Incident Management API provides a standardized mechanism to report, diagnose and resolve incidents and manages the entire lifecycle of incidents as defined by ITIL. The primary objective of incident management is to restore normal service operation as quickly as possible and minimize the adverse impact on business operations, ensuring that agreed levels of service quality are maintained.","TMF724","Common","RESTful","v4.0","2023-09-03","Production"
+"Test Environment Management API","This API provides a standardized mechanism for the management of test artefacts related to test environment specification. These include Abstract Test Environments, Concrete Environment Metamodels used to map abstract environments to concrete test resources, Environment Provisioning Artefacts, and Test Resource APIs exposed to test cases.
+19 July 2024: CTK fix","TMF705","Common","RESTful","v4.0","2024-07-19","Production"
+"Work Management","No description available yet","TMF713","Business Partner","RESTful","v4.0","2021-07-22","Pre-production"
+"Partnership Management API","<p>Standardized mechanisms for creating partnership types. It is one of the APIs involved in an onboarding process. Identifies a type of partnership between parties, including the list of role types that are permitted (i.e. Buyer, Seller, Developer). Role types may refer to agreement specifications to be signed by parties playing the role. <br/>The API allows the retrieval, creation, update, and deletion of partnership type and its owned sub-resources.</p>
+<br><b>Version history</b>
+<br>v4.0.0</br>
+07-Nov-2024  TMF668 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF668","Business Partner","RESTful","v4.0","2021-06-30","Production"
+"SLA Management API","<p>Provides a standardized interface for Service Level Agreement (SLA) life-cycle Management (SLA Negotiation, SLA configuration SLA Activation/enforcement, SLA Operations, SLA violation / consequence handling, SLA reporting) between a Customer and a Service Provider which provides offers (product with attached SLA in its catalogue) the customer can discover, browse, trigger and order.</p>","TMF623","Business Partner","RESTful","v2.0.0","2014-08-01","Archived"
+"IoT Agent and Device Management API","In addition to including established TM Forum Open APIs, such as alarm management, resource management and activation APIs, the IoT Device Management API Component Suite also includes an IoT Data Access Endpoint API. This API allows for IoT data access using different types of protocols (MQTT IoT, CoAP, etc.). It encapsulates the protocols and allows devices to be easily integrated into solutions that support a host of IoT initiatives, including smart cities, smart factories and other vertical markets.","TMF908","Resource","RESTful","v4.0","2021-11-22","Pre-production"
+"Event Management API","The Event Management API provides a standardized client interface to the enterprise event management system for creating, managing and receiving service related events to (indicatively) drive automation workflows, notify other service providers for service outages and SLA violations, trigger Trouble Ticket creation, and enable more complex orchestration scenarios between management systems. The Event Management API can also be used to convey business level Events in support of other processes.","TMF688","Common","RESTful","v4.0","2021-11-22","Pre-production"
+"Communication Management API","<p>Provides a capability to create and send communications, notifications, and instructions to Parties, Individuals, Organizations or Users.</p>","TMF681","Common","RESTful","v4.0","2021-07-01","Production"
+"Test Data Management API","This API provides a standardized mechanism for the management of test data artefacts used for test case parameterization. These include Test Data Schemas and Test Data Instances.","TMF706","Common","RESTful","v4.0","2021-06-30","Production"
+"Shipping Order Management API","Provides the necessary functionality to create, update and query Shipping Orders. A Shipping Order is a document used by a business to specify what items are to be transferred from a storage location or warehouse to which person and to which new location. A ShippingOrder typically is sent along with a shipment of goods so that the person receiving them can verify that the document correctly reflects the items that they actually received.","TMF700","Business Partner","RESTful","v4.0","2021-11-22","Pre-production"
+"Topology Management API","This API manages a topology discovery service providing an overlay view of relational information, gathered from one or more other Open API producers, in the form of directed graphs.","TMF686","Common","RESTful","v4.0","2024-03-21","Pre-production"
+"General Test Artifact Management API","This API provides a standardized mechanism for the management of test artefacts that do not fall into the categories managed by TMF704, TMF705, TMF706, TMF707, or TMF709, such as binaries, jars, etc.","TMF710","Common","RESTful","v4.0","2021-06-30","Production"
+"Metadata Catalog Management API","Metadata Catalog","TMF725","Common","RESTful","v4.0","2022-01-10","Pre-production"
+"Revenue Sharing Report Management API","<p>Revenue Sharing Report Management API goal is to provide the report of a revenue sharing.</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF737","Business Partner","RESTful","v5.0","2023-09-19","Production"
+"Self Care Management API","<p><span style=""color: rgb(36,41,46);"">The Self Care API component suite covers the operations required to be exposed in order to provide the functionality required by a SelfCare application used by a Service Provider to allow its customers to manage the services it has subscribed to.</span></p>","TMF910","Common","RESTful","v1.0.0","2018-02-01","Archived"
+"Entity Inventory Management API","The intent of this API is to provide a consistent/standardized mechanism to query and manipulate the Entity inventory.","TMF703","Common","RESTful","v4.0","2021-11-22","Pre-production"
+"Warranty Management","No description available yet","TMF715","Common","RESTful","v4.0","2021-08-11","Pre-production"
+"Recommendation Management API","<p>Recommendation API is used to recommend offering quickly based on the history and real-time context of a customer. It is a real-time and personalized recommendation API. It is usually provided by e-commerce or BSS, CRM system in omnichannel.</p>","TMF680","Customer","RESTful","v4.0","2021-07-02","Production"
+"Payment Method Management API","<p>This API supports the frequently-used payment methods for the customer to choose and pay the usage, including voucher card, coupon, and money transfer.</p>","TMF670","Customer","RESTful","v4.0","2021-02-08","Production"
+"Test Execution Management API","This API provides a standardized mechanism for test case, test suite, and non-functional test model execution. This also includes allocation and provisioning of test environments for test execution.","TMF708","Common","RESTful","v4.0","2021-07-07","Production"
+"Prepay Balance Management API","<p>REST API for Balance Management. It includes the model definition as well as all available operations for prepay balance management. Prepaid subscribers pay fees before using services. Therefore, the subscribers must have sufficient balances. Operators can provide multiple recharge channels for subscribers. Subscribers can pass credit between different subscriptions, therefore transferring the balance from one account to another.</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>09 Jan 2025 preview release v5.0.0: Open API Specification (OAS), User Guide
+<br>
+<p>v4.0.0</pr>
+<p> 01 Jul 2021 Stable release: OAS, user guide, conformance profile, CTK, RI and postman release.</p>
+","TMF654","Customer","RESTful","v4.0","2021-07-01","Production"
+"Test Scenario Management API","This API provides a standardized mechanism for the management of test scenarios. Test scenarios provide a full specification of required test elements, e.g. Test Case T parameterized with test data instance D running on abstract test environment E provisioned with a set of provisioning artefacts P.
+<p> 30-Aug-2024 v4.0.0 CTK fixes released","TMF709","Common","RESTful","v4.0","2021-06-30","Production"
+"Geographic Site Management API","<p>Covers the operations to manage (create, read, delete) sites that can be associated with a customer, account, service delivery or other entities. This API defines a Site as a convenience class that allows easy reference to places important to other entities, where a geographic place is an entity that can answer the question “where?”</p>
+
+<br><b>Version history</b> 
+<p><b>v5.0.0</b></p>
+<p>
+31-Mar-2026 TMF674 v5.0.0 preview release: Open API Specification, User Guide, Postman Collection, and Conformance Profile.
+</p>","TMF674","Common","RESTful","v4.0","2021-07-01","Production"
+"Privacy Management API","<p>The Privacy management API provides a standardized mechanism for privacy profile types, privacy profiles and privacy agreements such as creation, update, retrieval, deletion and notification of events</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF644","Business Partner","RESTful","v5.0","2023-09-19","Production"
+"Process Flow Management API","<p>The ProcessFlow API allows management of business process. It provides all required information to achieve business task requiring manual action:</p>
+<br> 20-Sept-2024 release: OAS v4.1.0 update for: <br>processFlowSpecification attribute (string) of ProcessFlow resource : change it from required (in the POST) to optional. This is backward compatible change.  Conformance profile is now compatible with the swagger.
+ ","TMF701","Common","RESTful","v4.1","2024-09-20","Pre-production"
+"Resource Pool Management API","<p>Resource Pool management API provides a feature of resource reservation at pre-order phase. In order to reserve a physical product, logical product, and virtual product, the API uses the idea of a resource pool.</p>
+Release history</p>
+v5.0.0</p>
+01-Nov-2024 TMF685 v5.0.0  preview release: new user guide released with updates for:
+<br> the Use Case</br>
+Resource 
+""ResourcePool""
+Resource 
+""ResourcePoolSpecification""</br>
+Resources ""AvailabilityCheck""</br>
+Resources ""Push""</br>
+Resources ""Extract""</br>
+</p>
+14-Oct-2024 TMF685 v5.0.0  preview release: Open API Specification, User Guide and Conformance profile ","TMF685","Resource","RESTful","v3.0.0","","Archived"
+"Service Test Management API","<p>The Service Test API provides a standardized mechanism for placing a service test with all the necessary test parameters. The API consists of a simple set of operations that interact with CRM/Service Management systems in a consistent manner. A service test is a procedure intended to check the quality, performance, or reliability of a service.</p>
+<br><b>Version history</b>
+<br>v4.0.0</br>
+<p>07-Nov-2024 TMF653 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF653","Service","RESTful","v4.2","2021-07-01","Production"
+"Customer360 Management API","An API to give a consolidated Customer overview. This is a view-only API, based on the various underlying involved TM Forum Open APIs. This API provides references where one can find detailed information for: Account, Agreement, Appointment, CustomerBill, InteractionItem, LoyaltyBalance, ProductOrder, ProductValue, Promotion, Quote, ServiceProblem, TroubleTicket, UsageSpecification<p>
+Release history</br>
+v5.0.1</<br>
+<br> 01-Nov-2024 v5.0.1 release: preview release fixes to Conformance profile and User Guides. <br> - Updated Acknowledgement Section.
+<br> - Corrected create event example.
+<br> 20-Sept-2024 v5.0.1 release: OAS hotfix v5.0.1
+<br> - Corrected the discrepancies between the parameter names of entity and sub-entity
+<br> - Added Loyalty Account in place of Loyalty Balance sub-entity
+<br> - Run the specmatic tool on generated oas file and corrected all the errors","TMF717","Customer","RESTful","v4.0","2022-01-05","Pre-production"
+"Resource Usage API","<p>The Resource Usage Management API provides a standardized mechanism for resource
+usage management such as the creation, update, retrieval, import and export of a collection
+of usages. A resource usage is an occurrence of employing a Resource, Resource Usage
+can influence of Service Usage and/or Product Usage.</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+<p> 30-Sept-2024 release: v5.0.0 CTK, RI, Postman released. Stable release.
+<p> 20-Sept-2024 release: v5.0.0 small changes in schemas to align apis: TMF767 Product Usage, TMF727 Service Usage and TMF771 Resource Usage.
+
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF771","Resource","RESTful","v5.0","2024-09-30","Production"
+"Promotion Management API","<p title="""">Used to provide the additional discount, voucher, bonus or gift to the customer who meets the pre-defined criteria. Using promotion, the enterprise is able to attract the users and encourage more consumption, especially continuous purchases. Normally Promotion is not regarded as one type of product or product offering. It is often applied when the customer buys the product offerings with the price or amount surpassing the certain limit</p>
+<br><b>Version history</b>
+<p>v5.0.0
+<p>22 Nov 2024 TMF671 v5.0.0 User guide released.</p>","TMF671","Product","RESTful","v4.1","2021-10-18","Production"
+"Risk Management API","The Risk Management API allows the retrieval of Risk Assessments during interaction with PartyRoles (individuals or organizations) typically engaged in an Order process from ProviderPartyRole. The Risk Assessment request is usually issued by the ProviderPartyRole (e.g. Service Provider). The resources used to retrieve these assessment are Task resources, as per the Open API guidelines for tasks","TMF696","Customer","RESTful","v4.0","2023-12-21","Production"
+"Document Management API","<p>Provides the operations to synchronize documents and document versions across systems. It also provides operations for uploading documents by Users as well as for viewing of documents online</p>
+<br><b>Version history</b>
+<p> v5.0.0</p>
+<p>14-Oct-2024  TMF667 v5.0.0 preview release: Open API Specification, User Guide and Conformance profile  </p>
+<br> v4.0.0</br>
+07-Nov-2024  TMF667 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF667","Common","RESTful","v4.0","2021-12-02","Production"
+"Appointment Management API","<p>The appointment API provides a standardized mechanism to book an appointment with all the necessary appointment characteristics. The API allows searching of free slots based on parameters, as for example a party, then creating the appointment. The appointment has characteristics such as nature of appointment, place of appointment.</p>
+<br><b>Version history</b>
+<p>v4.0.0</p>
+<p>07-Nov-2024 TMF646 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF646","Customer","RESTful","v4.0","2021-07-01","Production"
+"Private Optimized Binding","TMF759 Private Optimized Binding API provides the ability to improve the network connection between user equipment and cloud application by means of a simple switch, creating a new way to improve user experience and open new revenue stream.
+
+<p>TMF759 is derived from TMF702, TMF759 opens the door for future APIs, allowing to manage more dedicated core network operations to bolster NaaS capabilities","TMF759","Resource","RESTful","v5.0","2023-12-19","Pre-production"
+"Resource Role API ","The Resource Role Management API is designed to facilitate the management of resource role instances and specifications. These specifications delineate the shared characteristics and behaviors inherent to each type of resource entity.
+<br><b>Version history</b>
+<p>v5.0.0</p>
+<p>22-Nov-2024 TMF768 v5.0.0 updates to Conformance profile and User guide released.
+<p>14-Nov-2024 TMF768 v5.0.0  OAS, User Guide and Conformance profile  </p>preview release </p>","TMF768","Resource","","v5.0","","Pre-production"
+"Test Case Management API","This API provides a standardized mechanism for the management of test artefacts that do not fall into the categories managed by TMF704, TMF705, TMF706, TMF707, or TMF709, such as binaries, jars, etc.
+<p> 27-Aug-2024 v4.0.0 CTK fixes released","TMF704","Common","RESTful","v4.0","2021-06-30","Production"
+"Performance Management API","<p>Provides a standardized mechanism for performance management such as the creation, partial or full update and retrieval of resources involved in performance management (Measurement Production Job, Measurement Collection Job, and Ad hoc Collection). It also allows notification of events related to performance. </p>","TMF628","Common","RESTful","v5.0","2024-06-13","Pre-production"
+"Party Management API","<p>Provides a standardized mechanism for party management such as creation, update, retrieval, deletion and notification of events.<br/>Party can be an individual or an organization that has any kind of relationship with the enterprise.</p>
+<br><b>Version history</b>
+<br> v5.0.0
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+<br> v4.0.0 
+<p>07-Nov-2024 TMF632 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF632","Business Partner","RESTful, Asynchronous","v5.0","2023-09-19","Production"
+"Stock Management API","The Stock Management API provides standardized mechanism for product stock management such as creation, update and retrieval of the representation of a product stock, reserve product stock, check or query product stock or adjust product stock. It also allows the notification of events related to them.
+<p> Release history
+<p> v4.0.0
+<p> 04-Nov-2024 v4.0.0 CTK fixes released, CTK  allows for 200 or 206 on
+<br>  /ProductStock?fields=id
+<br>  /ProductStock?id=IDPS01
+<br>  /ReserveProductStock?fields=id 
+<p> 24-Oct-2024 v4.0.0 CTK fixes released, CTK  allows for 200 or 206 
+<p> 30-Aug-2024 v4.0.0 CTK fixes released","TMF687","Resource","RESTful","v4.0","2024-11-04","Production"
+"Network as a Service Management API","<p><span style=""color: rgb(36,41,46);"">The API Component Suite supports of a set of Operational Domains exposing and managing “Network” Services. These services are referred to as Network as a Service (NaaS) and include all services offered from a service provider including connectivity, end points, media services, etc. </span></p>
+<br><b>Version history</b>
+<p> v4.2.0</p>
+<p> 20-Dec-2024 v4.2.0: fixed Open API Specification broken link to correct TMF909_Network_as_a_Service_Management_API_v4.2.0_beta_swagger.json file,
+","TMF909","Service","RESTful","v3.0.0","2018-08-01","Archived"
+"IoT Service Management API","The IoT Service Management Component suite captures the minimal essential operational APIs required to manage IoT service end to end, and therefore accelerate IoT infrastructure as a service and help manage IoT at scale.","TMF914","Service","RESTful","v4.0","","Pre-production"
+"Test Result Management API","This API provides a standardized mechanism for the management of test results. These include Test Case Results, Test Suite Results, and Non-functional Test Results.pro
+<p> 27-Aug-2024 v4.0.0 CTK fixes released","TMF707","Common","RESTful","v4.0","2021-06-30","Production"
+"Shipment Tracking Management API","<p>Shipment Tracking captures information about the current status of the shipment, the past checkpoints and the estimated arrival date. Via this API, tracking information can be retrieved by providing an order ID or the shipping company’s tracking id.</p>","TMF684","Business Partner","RESTful","v1.0.0","2018-02-01","Archived"
+"Agreement Management API","<p>The Agreement API provides a standardized mechanism for managing agreements, especially in the context of partnerships between partners.</p>
+<br><b>Version history</b>
+<p>v5.0.0</p>
+<p>06-Sept-2024 TMF651 Agreement V5.0.0 OAS and User guide released </p>
+<br>v4.0.0</br>
+<p>07-Nov-2024 TMF651 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+ ","TMF651","Business Partner","RESTful","v4.0","2021-07-01","Production"
+"Change Management API","<p>The Change Management API provides standard integration capabilities between external applications and Change Management Application. The API consists of a simple set of operations that interact with a Change Request in a consistent manner.</p>
+<br><b>Version history</b>
+<br>v4.0.0</br>
+<p>07-Nov-2024 TMF655 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF655","Common","RESTful","v4.0","2022-01-24","Production"
+"Revenue Sharing Model Management","<p>Revenue Sharing Model Management API goal is to provide the ability to manage a revenue sharing model. This revenue sharing model allows to contain revenue sharing models that define how revenue is shared by an enterprise with one or more other parties. </p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF738","Business Partner","RESTful","v5.0","2023-09-19","Production"
+"Software And Compute Management API","This API Suite introduces schemas mapping the Software and Compute ABE to the Open API data model. The intention is to normalize this pattern for managing software resources such as ODA Components, VNFs and cloud native functions (CNF).  The existing Resource domain APIs for Catalog (634), Inventory (639), Activation (664, 702) and Ordering (652) should be used with these extentions of Resource/ResourceSpecification however the TMF730 API, with it's swagger and User Guide makes the data model published and available.","TMF730","Resource","RESTful","v4.0","2023-12-15","Production"
+"AI Management API","<p><span style=""color: rgb(36,41,46);"">The API Component Suite for AI Management defines the set of operations that should be offered in order that a Service Provider can govern Artificial Intelligence systems deployed at scale. Effective governance and management of AI must span the lifecycle from design through deployment and eventual withdrawal from service. However, the initial focus of the AI Management API is restricted to the in-life aspects of AI and in particular on the management of ‘model contracts’. </span></p>","TMF915","Common","RESTful","v4.0","2021-07-01","Production"
+"Resource Function Activation Management API","<p>This API introduces Resource Function which is used to represent a Network Service as well as a Network Function. The Network Service and Network Function class definitions and associations in TR244 (which, in turn, builds on concepts from the SID addenda on Logical Resource and Service) are utilized to define the Resource Function</p>
+<p> 27-Aug-2024 v4.0.0 TMF664 Resource Function Activation and Configuration Conformance Profile - Fix released","TMF664","Resource","RESTful","v4.0","2024-02-29","Production"
+"Shipment Management Management API","Shipment Management","TMF711","Business Partner","RESTful","v4.0","2022-01-10","Pre-production"
+"Resource Reservation","18-Dec-2024 Fixed broken swagger link</p>
+30-May-2024 Regenerated  swagger file for TMF716, released hot fix ","TMF716","Resource","RESTful","v4.0","2024-05-30","Production"
+"Usage Consumption Management API","<p><span style=""color: rgb(51,51,51);"">This API provides the real-time value within buckets (SMS, Voice, Data, TV for example) that a customer consumes with each of their devices, related to subscribed communication products without having to wait for the bill cycle. A usage report retrieves the data related to these balances.</span></p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>4-September-2025  v5.0.0 stable release: OAS, User Guide, Conformance profile, CTK, VS, and Postman.</p>
+<p> 18 July 2025 TMF677 preview release v5.0.0: Conformance Profile
+<p>09 Jan 2025 preview release v5.0.0: Open API Specification (OAS), user guide</p>
+<br>v4.0.0</br>
+<p>01 Jul 2021 v4.0.0 stable release: OAS, user guide, conformance profile, CTK, RI and postman 
+</p>","TMF677","Product","RESTful","v5.0.0","2025-09-04","Production"
+"Loyalty Management API","<p>Supports the management of loyalty program specifications, loyalty program members, their associated products and loyalty accounts with loyalty balances</p>
+<br><b>Version history</b>
+<p>v5.0.0
+<p>4-September-2025  v5.0.0 preview release: publish User Guide to match earlier release of OAS and Conformance Profile
+<p> 18 July 2025 TMF658 preview release v5.0.0: Open API Specification (OAS), Conformance Profile
+</p>","TMF658","Product","RESTful","v4.0","2024-02-29","Pre-production"
+"Outage Management API","<p>The Outage Management API enables telecommunications operators to capture, manage, and share network outage and service disruption details with customers, partners, and regulatory bodies. It provides comprehensive information on impacted services, affected regions, estimated restoration times, and historical outage records.
+By standardizing outage communication, the API improves customer transparency, supports regulatory compliance, and enhances operational efficiency. Operators can minimize customer frustration, reduce reputational risks, and streamline customer support by making accurate and timely outage details accessible across multiple channels, including websites, portals, and notifications.</p>
+<br><b>Version history</b>
+<p> v5.0.0</p>
+<p>4-September-2025  v5.0.0 preview release with OAS, User Guide and Conformance Profile.</p>","TMF777","Service","RESTful","v5.0","","Pre-production"
+"Product Inventory Management API","<p>Provides standardized mechanism for product inventory management such as creation, partial or full update and retrieval of the representation of a product in the inventory. It also allows the notification of events related to product lifecycle.</p>
+<br><b>Version history</b>
+<br>v5.0.0
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+<br>v4.0.0
+<p>07-Nov-2024 TMF637 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF637","Product","RESTful, Asynchronous","v5.0","2026-01-21","Production"
+"Shopping Cart Management API","<p>A standardized mechanism for the management of shopping carts. Including creation, update, retrieval, deletion and notification of an event. Shopping Cart entity is used for the temporary selection and reservation of product offerings in e-commerce and retail purchase.</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF663","Customer","RESTful","v5.0","2023-09-19","Production"
+"Product Offering Qualification Management API","<p>Product Offering Qualification API is one of Pre-Ordering Management API Family. Product Offering Qualification API goal is to provide Product Offering commercial eligibility.</p>
+<br><b>Version history</b>
+<p>v5.0.0</p>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+05 Nov 2024 v5.0.0 stable release. CTK updates made: logic to handle optional GET responses for a POST that responds with a 200 code. <br>
+16 Aug 2024 v5.0.0 stable release.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF679","Product","RESTful","v5.0","2024-11-05","Production"
+"CDR Transaction Management API","<p>CDR Transaction Management API goal is to provide the ability to manage a CDR Transaction. This CDR Transaction managing CDR Transactions that define how revenue share is calculated, billed and paid between an enterprise with one or more other parties. </p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF735","Common","RESTful","v5.0","2023-09-19","Production"
+"Service Problem Management API","<p>The SPM API is used to manage service problems. Service problems are generated based on the information declared by a partner or the event information notified from infrastructure providers. The event information includes alarm information, performance anomaly information, trouble ticket information, SLA violation, maintenance information, and prediction information.</p>
+<br><b>Version history</b>
+<br>v5.1.0 
+<p> 17-Oct-2025 Open API Specification (OAS), User Guide, Conformance Profile
+What’s New: Resolved schema and example issues, clarified optional fields, and aligned across all assets. </P>
+<br>v5.0.0
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+<br>v4.0.0</br>
+07-Nov-2024  TMF656 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF656","Service","RESTful","v5.0","2024-04-29","Production"
+"Revenue Sharing Algorithm Management API","<p>Revenue Sharing Algorithm Management API goal is to provide the Algorithm to calculate a revenue share.</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF736","Business Partner","RESTful","v5.0","2023-09-19","Production"
+"Party Role Management API","<p>A standardized mechanism for general party roles and includes operations such as creation, update, retrieval, deletion and notification of events. Notice that for the management of customers there is a specific Customer Management API.<br/>Party Role management API manages the following data resources: PartyRole</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+<br>v4.0.0</br>
+07-Nov-2024  TMF669 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF669","Business Partner","RESTful","v5.0","2023-09-19","Production"
+"Customer Bill Management API","<p>This API allows operations to find and retrieve one or several customer bills (also called invoices) produced for a customer also allows operations to find and retrieve the details of applied customer billing rates presented on a customer bill.</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF678","Customer","RESTful","v5.0","2026-01-21","Production"
+"Open Gateway Onboarding and Ordering Component Suite","<p>API Ordering, Developer & Application Onboarding and Management This Operate API component suite covers the onboarding operations between Channel Partners and Operators as described in the GSMA Playbook. It offers a consolidation of multiple TMForum-based APIs into a single endpoint (a component suite). This API focusses on:  Developer Management (acceptance, on boarding, lifecycle management) and  Application Management (acceptance, on boarding, lifecycle management)<br/>
+</p>
+<br><b>Version history</b>
+<p> v5.2.1</p>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+<p>19-Dec-2025  v5.2.1 stable release: OAS, User Guide, Conformance profile, CTK, VS, and Postman.Conformance Profile now includes an additional comment for the optional attribute approvedProductOfferingTermOrCondition.applicationLegalBasisForInputData, offering guidance on GDPR-related data processing.</p>
+<br>
+<p> v5.2.0</p>
+<p>13-June-2025  v5.2.0 stable release: OAS, User Guide, Conformance profile, CTK, VS, and Postman updated with support for product bundles, new query parameters, and improved TMF936-aligned examples. Requires docker desktop for CTK+ VS(RI)</p>
+<br>
+<p> v5.1.2</p>
+<p> 22-Jan-2026 A compliance note for specific geographies was added; no changes were made beyond the conformance profile. Patch fix to Conformance profile<p>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+<p>03-June-2025  v5.1.2 stable release: CTK: Bugfix on the HTML report to access from run directory of CTK.</p>
+<p> v5.1.2</p>
+<p>28-Feb-2025  v5.1.2 stable release: CTK, RI and Postman collection.</p>
+<p> v5.1.2</p>
+<p>06-Feb-2025  v5.1.2 stable release: fixes some inconsistencies, mainly on examples.</p>
+<p> v5.1.1</p>
+<p>02-Dec-2024  v5.1.1 preview release:  Conformance profile: minor bug fixes released.</p>
+<p>22-Nov-2024  v5.1.1 preview release:  Conformance profile and User Guide: minor bug fixes released.</p>
+<p>01-Nov-2024  v5.1.1 preview release:  OAS v5.1.1 The 5.1 brings new requirements from GSMA to allow more use cases regarding legislations constraints including last stable version of W3C DPV values to fulfill GDPR requirements. There are also some improvements on modelling and descriptions. All changes are detailed in ""Acknowledgements"" chapter of the User Guide.</p>
+<p>01-Aug-2024 v5.1.0 preview release: The 5.1 brings new requirements from GSMA to allow more use cases regarding legislations constraints. There are also some improvements on modelling and descriptions. All changes are detailled in ""Acknowledgements"" chapter of the User Guide.</p>
+<br>v5.0.0 
+<p>16 Sept 2024 v5.0.0 stable release: fix for Postman Collection has bad indentation.
+<p> 21 Feb 2024 v5.0.0 stable release.</p>
+<br>
+<p><b>This API is an Open Gateway Operate API, produced within the 
+  <a href=""https://www.gsma.com/solutions-and-impact/gsma-open-gateway/joint-certification-program-gsma-tm-forum/"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    GSMA Open Gateway</a> initiative.</b></p>
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF931","Common","RESTful","v5.2","2025-01-21","Production"
+"Trouble Ticket Management API","<p>Provides a standardized client interface to Trouble Ticket Management Systems for creating, tracking and managing trouble tickets among partners as a result of an issue or problem identified by a customer or another system. Examples of Trouble Ticket API clients include CRM applications, network management or fault management systems, or other trouble ticket management systems (e.g. B2B).</p>
+<br><b>Version history</b>
+<p> v5.0.0</p>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+<p> 18 July 2025 patch release v5.0.1: User Guide: reflects corrections in examples and alignment with the updated OAS template.</p>
+<p> 27-Aug-2024 v5.0.0 Conformance profile documentation fix: in Definitions for Filter section: All our APIs have mandatory GET operations.</p>
+<br> v4.0.0 
+<p>07-Nov-2024 TMF621 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF621","Common","RESTful, Asynchronous","v5.0","2025-05-06","Production"
+"Customer Management API","<p>Provides a standardized mechanism for customer and customer account management, such as creation, update, retrieval, deletion and notification of events. 
+</p>
+<br><b>Version history</b>
+<p>v5.0.0 </p>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+<p>25 Jul 2024 Open API Specification (OAS) v5.0.1 release fixes bug  v5.0.0 OAS file TMF629 Customer Management is missing Characteristic subclasses.</p>
+
+<br> v4.0.0 </br>
+<p>07-Nov-2024 TMF629 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+ <style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF629","Customer","RESTful","v5.0","2024-07-25","Production"
+"Account Management API","<p>Provides standardized mechanism for the management of billing and settlement accounts, as well as for financial accounting (account receivable) either in B2B or B2B2C contexts</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+<p>23 Jan 2025 CTK update:  ChangeME.json file for POST method of operation  BillingAccount operation, in partyOrPartyRole changed value of @type field from ""PartyRefOrPartyRoleRef"" to ""PartyRef"" </p>
+<p>19 Sep 2023</p> Stable release: OAS, User Guide, Conformance profile, CTK, RI and postman released.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF666","Business Partner","RESTful","v5.0","2025-01-23","Production"
+"Open Gateway Product Catalog API","<p>The TMF936 Operate Product Catalog API v5.0.0 is part of the TM Forum Open API standards and is designed to support the management and synchronization of product catalogs within telecommunications and digital service ecosystems. This API provides standardized operations for defining, updating, and managing product offerings, specifications, and pricing across multiple partners and platforms.<br/>
+</p>
+<br><b>Version history</b>
+<p> v5.0.0</p>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+<p>27-August-2025  v5.0.0 stable release: OAS, User Guide, Conformance profile, CTK, VS, and Postman.</p>
+<br>
+<p><b>This API is an Open Gateway Operate API, produced within the 
+  <a href=""https://www.gsma.com/solutions-and-impact/gsma-open-gateway/joint-certification-program-gsma-tm-forum/"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    GSMA Open Gateway</a> initiative.</b></p>
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF936","Product","RESTful","v5.0","2025-08-27","Production"
+"Party Interaction Management API","<p>A User Interaction captures information about past interactions in order to re-use it in future ones. This allows agents to serve users better by knowing the steps they went through. It also allows customers to see better the actions they have performed and how they interacted with us.</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF683","Business Partner","RESTful","v5.0","2023-09-19","Production"
+"Product Catalog Management API","<p>Provides a standardized solution for rapidly adding partners’ products to an existing Catalog. It brings the capability for Service Providers to directly feed partners systems with the technical description of the products they propose to them. </p>
+<br><b>Version history</b>
+<p>v5.0.0
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+<p> 23 Jan 2025 TMF620 v5.0.0 Sample implementation / RI file update: TMF620 v5.0.0 PATCH error fixed
+<p>18 Nov 2024 TMF620 v5.0.0 CTK update: Removed duplicate files. Updated CTK tests for TMF620 v5.0.0 these are now correct.</p>23
+<p>16 Aug 2024 TMF620 v5.0.0 CTK update: fixed the executable and implemented the resources as defined in the conformance profile </p>
+<p>02 Jul 2021</p> Stable release: OAS, User Guide, Conformance profile, CTK, RI released.
+<br>v4.1.0</p>
+07 Nov 2024  TMF620 v4.1.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF620","Product","RESTful, Asynchronous","v5.0","2025-01-23","Production"
+"Product Ordering Management API","<p title="""">Provides a standardized mechanism for placing a product order with all the necessary order parameters. The API consists of a simple set of operations that interact with CRM/Order negotiation systems in a consistent manner. A product order is created based on a product offering that is defined in a catalog. The product offering identifies the product or set of products that are available to a customer and includes characteristics such as pricing, product options and market.</p>
+<br><b>Version history</b>
+<br> v5.0.0
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+<br> v4.0.0 
+<p>07-Nov-2024 TMF622 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF622","Customer","RESTful, Asynchronous","v5.0","2023-09-19","Production"
+"Service Inventory Management API","<p>The intent of this API is to provide a consistent/standardized mechanism to query and manipulate the Service inventory.</p>
+<br><b>Version history</b>
+<br><p>v5.1.0</p>
+<p>30-Sept-2025 v5.1.0 Preview release: Fixed enum mismatch in examples, added operatingStatusContextUpdate, aligned for RI validation. Open API Specification (OAS), User Guide, Conformance Profile </p>
+<br><p>v5.0.0</p>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+<p>30-Aug-2024 v5.0.0 CTK fixes released</p>
+<br>v4.0.0</br>
+<p>07-Nov-2024 TMF638 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF638","Service","RESTful, Asynchronous","v5.0","2023-09-19","Production"
+"Alarm Management API","<p>The Alarm Management API applies lessons that were learned in previous generations of similar APIs that were implemented in the Telecommunication industry, starting from ITU recommendations, TM Forum OSS/J, MTOSI and TIP interfaces, NGMN alignment initiative between 3GPP and TM Forum interfaces, and the more recent ETSI work on requirements for NFV interfaces.</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+<p>09 Jan 2025 CTK updates:  CTK tested against the supplied RI and both an html and json report are now created in a unix environment.</p>
+<p>25 Jul 2024 Open API Specification (OAS) v5.0.1 release fixes  v5.0.0 OAS & Governance validation errors</p>
+<p>18 Dec 2023 stable release v5.0.0 OAS, user guide, conformance   profile, CTK, RI, postman released.</p>
+
+<br>v4.0.0</br>
+<p>07-Nov-2024 TMF639 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+<p>09 Jul 2021 v4.0.0  stable release OAS, user guide, conformance profile, CTK, RI and postman. </p>
+
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF642","Resource","RESTful","v5.0","2025-01-23","Production"
+"Product Configuration Management API","<p>The Product Configuration API drives the configuration of new product offerings and modification of existing products for various user engagement channels. The Product Configuration API uses product catalog data, policy data, and existing product inventory data to assist engagement managent systems with product configuration. Product configuration may include setting and restrincting characteristic values, enforcing min/max on bundle offering groups and options, and calculation of prices and discounts.</p>
+
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+<p>16 Aug 2024: CTK update:  fixed Bat Windows execution
+
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF760","Customer","RESTful","v5.0","2024-08-16","Production"
+"Intent Management API","<p>This API allows intents to be expressed, reporting on and negotiated between the intent owner and the intent handler. The Intent API provides specifies the basic attributes and relationships that describe an Intent. The expression attribute of Intent contains a statement of the expectations for an intent in a particular ontology language and is validated by the TM Forum Intent Ontology (TIO).</p>
+<br><b>Version history</b>
+<p>v5.0.0</pr>
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p>
+<p>02-Oct-2024 release: v5.0.0 CTK, RI, Postman released. Stable release.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF921","Common","RESTful","v5.0","2024-10-02","Production"
+"Digital Identity Management API","Provides the ability to manage a digital identity. This digital identity allows identification of an individual, a resource, or a partyRole (a specific role - or set of roles - for a given individual). A digital identity is associated with credential / authentication method. These credential / authentication methods should be extensible to describe all types of authentication methods such as login/password, biometric, token, etc. A contact medium is also associated with digital identity (or directly at credential level) to manage credential recovery UCs.
+<br><b>Version history</b>
+<p>v5.0.0</p>
+<p> 18 July 2025 preview release v5.0.0: Open API Specification (OAS), User Guide, Conformance Profile</p>
+22-Nov-2024 TMF720 v5.0.0  updates to User Guide  released </p>
+14-Nov-2024 TMF720 v5.0.0  OAS and User Guide  preview release </p>
+<br>v4.0.0</br>
+<p>07-Nov-2024 TMF645 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF720","Common","RESTful","v4.0","2022-01-24","Production"
+"Open Gateway Product Usage API","<p>
+The TMF937 Open Gateway Product Usage API v5.0.0 defines an asynchronous bulk export mechanism for exchanging aggregated ProductUsage records between Operators and Channel Partners. It standardizes usage collection, reporting, reconciliation, and settlement processes for Open Gateway APIs, supporting both rated and non-rated commercial models. The API aligns with the TMF635 v5.0 information model.
+<br/>
+</p>
+
+<br><b>Version history</b>
+
+<p><b>v5.0.00-rc1</b></p>
+
+<p>
+27-February-2026 v5.0.0 Preview release: Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection.
+</p>
+
+<br>
+
+<p><b>This API is an Open Gateway Operate API, produced within the 
+  <a href=""https://www.gsma.com/solutions-and-impact/gsma-open-gateway/joint-certification-program-gsma-tm-forum/"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    GSMA Open Gateway</a> initiative.</b></p>
+
+<style>
+.styled-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.styled-link:visited {
+  color: purple;
+}
+.styled-link:hover {
+  color: darkblue;
+}
+</style>","TMF937","Product","RESTful","v5.0","","Pre-production"
+"User Role Permission Management API","<p>
+A user role is defined as the entity that defines a set of privileges covering various functions and/or manageable assets. 
+When a user is assigned a given role then it is actually allocated all the privileges defined for that role type and the corresponding permissions are created for that user.
+</p>
+
+<b>Versioning Note</b><br>
+
+<p>
+This API has progressed to <b>TMF672 v5.1 RC3</b>. Both <b>v5.0 (Preview)</b> and <b>v5.1(Preview)</b> will remain available to ensure traceability for members who may have explored the earlier v5.0 preview assets.
+As with all preview APIs, these assets are provided for early evaluation and may evolve prior to a stable release.
+</p>
+
+<br><b>Version history</b>
+<p>
+03-Mar-2026 TMF672 v5.1.0 RC3 Preview release: Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection. Includes a fix addressing ambiguity caused by identical <code>oneOf</code> schemas in the <code>PartyRefOrPartyRoleRef</code> definition. A restriction has been added to the allowed value of <code>@type</code>, enabling broader tooling compatibility without altering the API signatures.
+</p>
+<p>
+09 Feb 2026 TMF672 v5.1.0 release: Open API Specification (OAS), User Guide, Conformance Profile
+</p>
+
+<p>
+20 Dec 2024 TMF672 v5.0.0 release: User guide v5.0.1 and Conformance profile v5.0.1 updates made.
+</p>
+
+<p>
+14 Nov 2024 TMF672 v5.0.0 release: OAS and User guide fixes including example and two minor fixes in schema.
+</p>
+
+<br>v4.0.0</p>
+
+<p>
+07-Nov-2024 TMF672 v4.1.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. 
+No impact to awarded Open API Conformance certifications.
+</p>
+","TMF672","Common","RESTful","v4.0","2021-07-02","Production"
+"Dunning Case Management","<p>The Dunning Case Management API enables systems to identify, track, and manage outstanding debts resulting from payment refusal or delay. It supports automated recovery through defined strategies, including service suppression.
+ </p>
+<br><b>Version history</b>
+<p>v5.0.0 rc2</p>
+<p> 11 March 2026 TMF728 v5.0.0 rc2 Open API Specification (OAS), User Guide, Conformance Profile and Postman Collection
+</p>
+<p>v5.0.0
+<p> 30 Sep 2025 TMF728 v5.0.0 Open API Specification (OAS), User Guide, Conformance Profile
+<p>","TMF728","Common","RESTful","v4.0","2022-05-08","Pre-production"
+"Performance Thresholding Management API","Provides a standardized mechanism for performance management such as creation, partial or full update and retrieval of the resources involved in performance management (Measurement Production Job, Measurement Collection Job, and Ad hoc Collection). It allows also notification of events related to performance
+
+<br><b>Version history</b>
+<p>v5.0.0</p>
+<p> 31 Mar 2026 stable release: Open API Specification (OAS), User Guide, Conformance Profile, Postman, CTK, RI</p>
+<p>v5.0.0 rc2</p>
+<p> 09 Mar 2026 preview release: : Open API Specification (OAS), User Guide, Conformance Profile, Postman Collection</p> <p>This update includes updated schemas and tooling versions in preparation for promoting this API to product/stable version. The Postman Collection asset is now available.
+ </p>
+<p>v5.0.0</p>
+<p> 19 Jan 2026 preview release: Open API Specification (OAS), User Guide, Conformance Profile</p>","TMF649","Common","RESTful","v5.0","2026-03-09","Production"
+"Resource Inventory Management API","<p>
+The intent of this API is to provide a consistent and standardized mechanism to query and manipulate the Resource inventory.
+</p>
+
+<br><b>Version history</b>
+
+<p><b>v5.0.0</b></p>
+
+<p>
+20-Mar-2026 – TMF639 v5.0.0 RC2 Preview release: Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection. 
+Includes a fix addressing misalignment between the Conformance Profile and OAS for <code>supportingResource</code>. The Conformance Profile previously marked <code>@referredType</code> as mandatory, while the OAS defines <code>supportingResource</code> using a polymorphic <code>oneOf</code> (Resource or ResourceRef), where <code>@referredType</code> is not consistently required. This update aligns the definitions to ensure consistency across assets.
+</p>
+
+<p>
+11-Mar-2026 – TMF639 v5.0.0 RC1 Preview release: Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection.
+</p>
+
+<p><b>v4.0.0</b></p>
+
+<p>
+07-Nov-2024 – TMF639 v4.0.0 CTK file fix: Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+</p>","TMF639","Resource","RESTful","v4.0","2021-07-01","Production"
+"Service Activation Management API","<p>The REST API for Activation and Configuration allows the user to retrieve, create, update, delete services and retrieve the monitor resource used to monitor the execution of asynchronous requests on a specific resource. Although all the examples given in the API specification are relative to Services, the same API can be used to Activate and Configure Services or Resources.</p>
+<br><b>Version history</b>
+<p>v5.0.0</p>
+01-May-2025 TMF640 v5.0.0  OAS, User Guide and Conformance Profile  preview release </p>
+<p>v4.0.0</p>
+<p>12 Mar 2026 TMF640 v4.0.0 release: This update includes fixes and minor improvements to the CTK and Reference Implementation.
+The update corrects the use of a string for a datetime filter parameter, which has now been aligned to the proper ISO 8601 date-time format. README files have also been improved with clearer guidance, including suggested proxy configuration for Docker images to support testing vendor implementations across different networks.
+The Docker image tag has been incremented from v1.0.0 to v1.0.1 to reflect this patch update.</p>
+<p>07-Nov-2024 TMF640 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF640","Service","RESTful","v4.0","2026-03-12","Production"
+"Quote Management API","<p>The Quote API is one of the Pre-Ordering Management APIs. The customer Quote API provides a standardized mechanism for placing a customer quote with all the necessary quote parameters.</p>
+
+<br><b>Version history</b>
+<p><b>v5.0.0 rc1</b></p>
+<p>13-Mar-2026 TMF648 v5.0.0 rc1 preview release: Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection. </p>
+<p>v5.0.0</p>
+<p>4-September-2025  v5.0.0 preview release: publish User Guide to match earlier release of OAS and Conformance Profile
+<p> 18 July 2025 TMF648 preview release v5.0.0: Open API Specification (OAS), Conformance Profile
+<p> 29-Aug-2024 v5.0.0 updates to OAS and User Guide released  </p>
+<br>v4.0.0</br>
+<p>07-Nov-2024 TMF648 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF648","Customer","RESTful","v4.0","2021-07-01","Production"
+"Resource Order Management API","<p>The REST API for Resource Order Management. It includes the model definition as well as all available operations. Possible actions are creating, updating and retrieving Resource Orders (including filtering). A Resource Order API provides a standard mechanism for placing a Resource Order with all necessary order parameters.</p>
+<br><b>Version history</b>
+<br>v4.0.0</br>
+<p>12 Mar 2026 TMF652 v4.0.0 release: This update includes fixes and minor improvements to the CTK and Reference Implementation.
+The update corrects the use of a string for a datetime filter parameter, which has now been aligned to the proper ISO 8601 date-time format. README files have also been improved with clearer guidance, including suggested proxy configuration for Docker images to support testing vendor implementations across different networks.
+The Docker image tag has been incremented from v1.0.0 to v1.0.1 to reflect this patch update.</p>
+
+<p>07-Nov-2024 TMF652 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF652","Resource","RESTful","v4.0","2026-03-12","Production"
+"Resource Catalog Management API","<p>The Resource Catalog Management API REST specification allows the management of the entire lifecycle of the Resource Catalog elements and the consultation of resource catalog elements during several processes such as ordering process.</p>
+<br><b>Version history</b>
+<br> v5.0.0
+<p>21-Jan-2026 The CTK and RI have been re-released in a dockerized format, this may require different set up requirements and any automation platforms will need to be updated. Click <a href=""https://projects.tmforum.org/wiki/display/API/TM+Forum+Open+API+Conformance+Testing+and+Validation+Instructions+Page"" 
+     target=""_blank"" 
+     rel=""noopener noreferrer"" 
+     class=""styled-link"">
+    here for more information</a></b>.</p> 
+<br> v4.1.0 
+<p>12 Mar 2026 TMF634 v4.1.0 release: This update includes fixes and minor improvements to the CTK and Reference Implementation. The update corrects the use of a string for a datetime filter parameter, which has now been aligned to the proper ISO 8601 date-time format. README files have also been improved with clearer guidance, including suggested proxy configuration for Docker images to support testing vendor implementations across different networks. The Docker image tag has been incremented from v1.0.0 to v1.0.1 to reflect this patch update.</p>
+
+<p>07-Nov-2024 TMF634  CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+<style>
+.styled-link {
+  color: blue;               /* hyperlink blue */
+  text-decoration: underline; /* underline like a normal link */
+  cursor: pointer;           /* hand cursor on hover */
+}
+.styled-link:visited {
+  color: purple;             /* optional: visited link color */
+}
+.styled-link:hover {
+  color: darkblue;           /* hover color */
+}
+</style>","TMF634","Resource","RESTful","v5.0","2023-09-19","Production"
+"Service Ordering Management API","<p>The REST API for Service Order Management provides a standardized mechanism for placing a service order with all the necessary order parameters. It allows users to create, update &amp; retrieve Service Orders and manages related notifications.</p>
+<br><b>Version history</b>
+<p>v4.2.0</p>
+01 Aug 2024 v4.2.0 release The changes are made to reflect the updates done in service resource model to align with TMF638 v4.2 and TMF640 v4.2 updates and also the addition of optional modifyPath attribute in serviceOrderItem.</p>
+<br>v4.1.0</br>
+<p>12 Mar 2026 TMF641 v4.1.0 release: This update includes fixes and minor improvements to the CTK and Reference Implementation. The update corrects the use of a string for a datetime filter parameter, which has now been aligned to the proper ISO 8601 date-time format. README files have also been improved with clearer guidance, including suggested proxy configuration for Docker images to support testing vendor implementations across different networks. The Docker image tag has been incremented from v1.0.0 to v1.0.1 to reflect this patch update.</p>
+<p>20-Dec-2024: v4.1.0 Updates to CTK and RI released: Removed @type mandatory in RelatedParty for TMF641 Service Order. Note: in general v4.x APIs do not mandate @type
+<p>28-Nov-2024: Fix released for CTK. The payload within the test cases was adjusted so that the CTK now correctly passes when pointed to the associated RI.  The CTK test cases were adjusted to remove the double-quotes ("") around the orderDate filter and replaced with single-quotes ('). The URL is now /serviceOrder?orderDate='2024-11-12' to make things easier to read. 
+<p>07-Nov-2024: TMF641 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+
+ ","TMF641","Service","RESTful","v4.1","2026-03-12","Production"
+"Entity Catalog Management API","<p>The entity catalog is intended to provide any SID entity to consumers via a catalog, with its specification and policy providing governance over its content. The API provides management of the entity specifications and their associations through CRUD operations.</p>
+<br><b>Version history</b></br>
+<br>v4.0.0 </br>
+<p>12 Mar 2026 TMF662 v4.0.0 release: This update includes fixes and minor improvements to the CTK and Reference Implementation.
+The update corrects the use of a string for a datetime filter parameter, which has now been aligned to the proper ISO 8601 date-time format. README files have also been improved with clearer guidance, including suggested proxy configuration for Docker images to support testing vendor implementations across different networks.
+The Docker image tag has been incremented from v1.0.0 to v1.0.1 to reflect this patch update.</p>
+
+07-Nov-2024 TMF662 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF662","Common","RESTful","v4.0","2026-03-12","Production"
+"Payment Management API","<p>The Payments API provides the standardized client interface to Payment Systems for notifying about performed payments or refunds. Examples of Payment API originators (clients) include Web servers, mobile app servers, Contact center dashboards or retail store systems. </p>
+<p>Version History</p>
+<p>12 Mar 2026 TMF676 v4.0.0 release: This update includes fixes and minor improvements to the CTK and Reference Implementation.
+The update corrects the use of a string for a datetime filter parameter, which has now been aligned to the proper ISO 8601 date-time format. README files have also been improved with clearer guidance, including suggested proxy configuration for Docker images to support testing vendor implementations across different networks.
+The Docker image tag has been incremented from v1.0.0 to v1.0.1 to reflect this patch update.</p>","TMF676","Customer","RESTful","v4.0","2026-03-03","Production"
+"Product Usage Management API","<p>
+Provides a standardized mechanism for usage management, including the creation, update, retrieval, import, and export of a collection of usages. The API manages both rated and non-rated usage. For example, it allows a service provider to (1) retrieve usage generated by a partner service platform for rating purposes and (2) provide rated usage to a partner for consumption follow-up.
+</p>
+
+<br><b>Version history</b>
+
+<br><b>v5.0.0</b>
+<p>
+31-Mar-2026 – TMF635 v5.0.0 Updated coversheet for User Guide and Conformance Profile
+</p>
+<p>
+17-Mar-2026 – TMF635 v5.0.0 Stable release: Open API Specification (OAS), User Guide, Conformance Profile, Postman Collection, CTK, and Sample implementation code.
+</p>
+<p>
+03-Mar-2026 – TMF635 v5.0.0 RC3 Preview release: Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection. Includes a fix addressing ambiguity caused by identical <code>oneOf</code> schemas in the <code>PartyRefOrPartyRoleRef</code> definition. A restriction has been added to the allowed value of <code>@type</code> to improve tooling compatibility without altering the API signatures.
+</p>
+
+<p>
+22-Jan-2026 – Usage API v4 uplifted to Product Usage v5, aligning the API and schemas with updated design standards. The <code>/usage</code> endpoint was renamed to <code>/productUsage</code>. <code>serviceUsage</code> and <code>resourceUsage</code> are now handled by separate APIs (TMF727 and TMF771 respectively). Specifications are managed by the TMF767 Product Usage Catalog Management API. A new <code>/exportJob</code> resource was introduced to enable file-based export of product usage data, along with corresponding exportJob events.
+</p>
+
+<br><b>v4.0.0</b>
+
+<p>
+07-Nov-2024 – TMF635 CTK file fix: Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.
+</p>","TMF635","Product","RESTful","v5.0","2026-03-17","Production"
+"Service Qualification Management API","<p>Service Qualification API is one of the Pre-Ordering Management APIs. Service Qualification API goal is to provide service availability at Customer location.</p>
+<br><b>Version history</b>
+<p>v5.0.0 </p>
+<p>31-Mar-2026 – TMF645 v5.0.0 Updated coversheet for User Guide and Conformance Profile.</p>
+<p>
+<p>17-Mar-2026 – TMF645 v5.0.0 Stable release: Open API Specification (OAS), User Guide, Conformance Profile, Postman Collection, CTK, and Sample implementation code.</p>
+<p>
+<p>v5.0.0 RC2</p>
+03-March-2026 – TMF645 v5.0.0 RC2 Preview release: Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection. Includes a fix for a problem where identical <code>oneOf</code> schemas in the <code>PartyRefOrPartyRoleRef</code> schema were causing ambiguity. Adding a restriction on the allowed value of <code>@type</code> allows the API to be used with a wider range of tools without altering the API signatures.
+</p>
+
+<p>v5.0.0 rc1</p>
+<p>
+12-February-2026 TMF645 v5.0.0 RC1 Preview release with Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection. 
+Includes schema alignment updates, rules.yaml refinements, sample payload corrections, clarification of date attributes, and schema reference corrections.
+</p>
+<p>v5.0.0</p>
+<p>4-September-2025  v5.0.0 updated preview release with OAS, User Guide and Conformance Profile, update to current API v5 standards, add missing floatCharacteristic, correct filter parameters, adjust schemas to follow established patterns.</p>
+14-Nov-2024 TMF645 v5.0.0  OAS and User Guide fix for missing Characteristic subclasses in OAS/user guide </p>
+<br>v4.0.0</br>
+<p>07-Nov-2024 TMF645 v4.0.0 CTK file fix Mac-Linux-RUNCTK.sh modified to remove syntax errors. No impact to awarded Open API Conformance certifications.","TMF645","Service","RESTful","v5.0","2026-03-17","Production"
+"Product Usage Catalog Management API","<p>
+TMF767 Product Usage Catalog Management API provides a standardised mechanism for usage management such as creation, update, retrieval, import and export of a collection of product usage. A Product Usage represents an occurrence of usage on a Product derived from various Service usages, which can be further used to generate interest to a billing system, and can have charges applied to it.
+</p>
+
+<p>
+It is comprised of characteristics which define all attributes known for a particular type of Product Usage.
+</p>
+<p> </p>
+<br><b>Version history</b> 
+<p><b>v5.0.0 </b></p>
+<p>31-Mar-2026 – TMF767 v5.0.0 Updated coversheet for User Guide and Conformance Profile.</p>
+<p>17-Mar-2026 – TMF767 v5.0.0 Stable release: Open API Specification (OAS), User Guide, Conformance Profile, Postman Collection, CTK, and Sample implementation code.</p>
+<p><b>v5.0.0 RC3</b></p>
+<p>
+03-March-2026 – TMF767 v5.0.0 RC3 Preview release: Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection. Includes a fix for a problem where identical <code>oneOf</code> schemas in the <code>PartyRefOrPartyRoleRef</code> schema were causing ambiguity. Adding a restriction on the allowed value of <code>@type</code> allows the API to be used with a wider range of tools without altering the API signatures.
+</p>
+<p><b>v5.0.0 rc1</b></p>
+<p>
+13-February-2026 TMF767 v5.0.0 rc1 preview release: Open API Specification (OAS), User Guide, Conformance Profile, and Postman Collection. Includes schema updates to ProductUsageSpecification, added Product and Service Usage specification references, removed unused attributes, replaced targetEntitySchema with targetProductUsageSchema, and made name and lifecycleStatus mandatory for create operations.
+</p>
+
+<p><b>v5.0.0</b></p>
+<p>
+14-Oct-2024 TMF767 v5.0.0 preview release: Open API Specification, User Guide and Conformance Profile updates for consistency between Usage APIs: Product Usage, Service Usage and Resource Usage.
+</p>","TMF767","Product","RESTful","v5.0","2026-03-17","Production"
